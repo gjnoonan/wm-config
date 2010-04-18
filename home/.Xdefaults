@@ -39,3 +39,14 @@ Xft.rgba:      rgb
 *foreground: #cdcdcd
 !}}}
 
+!{{{ rxvt-unicode ---------------------------------------------------------------
+
+urxvt*font:      -*-dina-medium-r-*-*-16-*-*-*-*-*-*-*
+urxvt*boldFont:  -*-dina-bold-r-*-*-16-*-*-*-*-*-*-*
+
+urxvt*saveLines:          32767
+urxvt*visualBell:         false
+urxvt*loginShell:         true
+urxvt*termName:           xterm-256color
+
+!}}}
