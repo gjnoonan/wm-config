@@ -1,6 +1,6 @@
 #!/bin/sh
 
-feh --bg-scale ~/backgrounds/archjeans.jpg &	# set background
+feh --bg-scale ~/wallpapers/archjeans.jpg &	# set background
 numlockx on &                               	# numlock on
 setxkbmap -option terminate:ctrl_alt_bksp & 	# C-A-BS to kill X
 urxvtd -q -f -o &                           	# start urxvt daemon
