@@ -48,12 +48,13 @@ URxvt*font:	xft:Liberation Mono:pixelsize=16,\
 urxvt*saveLines:  32767
 urxvt*visualBell: false
 urxvt*loginShell: true
-URxvt*termName: 	rxvt-256
+
+URxvt*intensityStyles: true
+URxvt*termName:        rxvt-256color
+URxvt*urgentOnBell:    true
 
 URxvt*searchable-scrollback: CS-s
 URxvt.cutchars: "()*,<>[]{}|'
-URxvt*secondaryScroll: true
-URxvt.urgentOnBell: true
 !}}}
 
 
