@@ -41,12 +41,22 @@ Xft.rgba:      rgb
 
 !{{{ rxvt-unicode ---------------------------------------------------------------
 
-urxvt*font:      -*-dina-medium-r-*-*-16-*-*-*-*-*-*-*
-urxvt*boldFont:  -*-dina-bold-r-*-*-16-*-*-*-*-*-*-*
+URxvt*font:	xft:Liberation Mono:pixelsize=16,\
+			xft:Arial Unicode MS:pixelsize=16,\
+			xft:Everson Mono Unicode:pixelsize=16
 
-urxvt*saveLines:          32767
-urxvt*visualBell:         false
-urxvt*loginShell:         true
-urxvt*termName:           xterm-256color
+urxvt*saveLines:  32767
+urxvt*visualBell: false
+urxvt*loginShell: true
+URxvt*termName: 	rxvt-256
 
+URxvt*searchable-scrollback: CS-s
+URxvt.cutchars: "()*,<>[]{}|'
+URxvt*secondaryScroll: true
+URxvt.urgentOnBell: true
 !}}}
+
+
+
+
+
