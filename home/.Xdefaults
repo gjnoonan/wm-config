@@ -2,47 +2,36 @@
 Xft.dpi:       96
 Xft.antialias: 1
 Xft.hinting:   1
-Xft.hintstyle: hintfull
+Xft.hintstyle: hintlight
 Xft.rgba:      rgb
-!}}}
 
-!{{{ jwr low contrast
+*background: #090909
+*foreground: #a9a6af
 
-!black
-*color0: #222222
-*color8: #454545
-
-!red
-*color1: #9E5641
-*color9: #CC896D
-!green
-*color2: #6C7E55
-*color10: #C4DF90
-!yellow
-*color3: #CAAF2B
-*color11: #FFE080
-!blue
-*color4: #7FB8D8
-*color12: #B8DDEA
-!magenta
-*color5: #956D9D
-*color13: #C18FCB
-!cyan
-*color6: #4c8ea1
-*color14: #6bc1d0
-!white
-*color7: #808080
-*color15: #cdcdcd
-
-*borderColor: #343434
-*background: #343434
-*foreground: #cdcdcd
-!}}}
+!candymouse
+*color0:  #090909
+*color8:  #171717
+*color1:  #a28699
+*color9:  #9c8093
+*color2:  #799c99
+*color10: #85afa9
+*color3:  #b0ad90
+*color11: #c4c497
+*color4:  #87afd7
+*color12: #98a7b6
+*color5:  #a488d9
+*color13: #9f8bab
+*color6:  #6c7373
+*color14: #a3babf
+*color7:  #8d8d8d
+*color15: #9d9d9d
 
 !{{{ rxvt-unicode ---------------------------------------------------------------
 
 URxvt*font: xft:Bitstream Vera Sans Mono:pixelsize=13:antialias=true:hinting=true
-
+URxvt.cursorColor: #a3ffa6
+URxvt.fading: 50
+!URxvt.font: xft:Envy Code R:size=10
 
 urxvt*saveLines:  32767
 urxvt*visualBell: false
@@ -54,9 +43,11 @@ URxvt*urgentOnBell:    true
 
 URxvt*searchable-scrollback: CS-s
 URxvt.cutchars: "()*,<>[]{}|'
+
+URxvt.matcher.button: 1
+URxvt.perl-ext-common: matcher
+URxvt.pointerBlank: true
+URxvt.scrollBar: false
+URxvt.urlLauncher: firefox
 !}}}
-
-
-
-
 
