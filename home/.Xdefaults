@@ -49,5 +49,6 @@ URxvt.perl-ext-common: matcher
 URxvt.pointerBlank: true
 URxvt.scrollBar: false
 URxvt.urlLauncher: firefox
+
 !}}}
 
